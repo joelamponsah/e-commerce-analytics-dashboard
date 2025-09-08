@@ -8,10 +8,11 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-# %pip install streamlit
+#%pip install streamlit
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
+
 
 import streamlit as st
 import pandas as pd
