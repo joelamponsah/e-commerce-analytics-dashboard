@@ -17,7 +17,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_csv("/content/drive/MyDrive/github/ead/data/cleaned_dataset.csv", parse_dates=["order_date"])
+df = pd.read_csv("/workspaces/e-commerce-analytics-dashboard/data/cleaned_dataset.csv", parse_dates=["order_date"])
 
 st.title("📊 E-Commerce Analytics Dashboard")
 
